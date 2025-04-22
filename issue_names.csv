@@ -1,0 +1,9 @@
+filename,issue_count,issue_names
+0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.json,4,events-maths; immutable-states; naming-convention; solc-version
+0x3ba1e16f1dce8105d09768f17b8720cf6910f187.json,4,immutable-states; naming-convention; solc-version; unused-return
+0x5985e21f48b47ec33e19a40549f60d3ef7a797f8.json,4,events-maths; immutable-states; naming-convention; solc-version
+0x603fc3246ef974a840ba1d7ab43d99130e8aa774.json,3,immutable-states; naming-convention; solc-version
+0x91de79b2cbe12646ca916ab028d29b0bf7c0c863.json,5,immutable-states; naming-convention; reentrancy-benign; reentrancy-events; solc-version
+0x980358360409b1cc913a916bc0bf6f52f775242a.json,6,immutable-states; naming-convention; redundant-statements; reentrancy-benign; reentrancy-events; solc-version
+0xbacc18ea3972432f4c5d7f80de015d5d50c1cd8e.json,3,missing-zero-check; naming-convention; solc-version
+0xc0c2809aa2a6c38ff1eeac13cff6c0e5cf637e27.json,0,

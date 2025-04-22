@@ -1,0 +1,9 @@
+filename,reentrancy,uninitialized,tx_origin,low_level_calls,total_issues,label
+0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.json,0,0,0,0,4,1
+0x3ba1e16f1dce8105d09768f17b8720cf6910f187.json,0,0,0,0,5,1
+0x5985e21f48b47ec33e19a40549f60d3ef7a797f8.json,0,0,0,0,4,1
+0x603fc3246ef974a840ba1d7ab43d99130e8aa774.json,0,0,0,0,4,1
+0x91de79b2cbe12646ca916ab028d29b0bf7c0c863.json,0,0,0,0,5,1
+0x980358360409b1cc913a916bc0bf6f52f775242a.json,0,0,0,0,6,1
+0xbacc18ea3972432f4c5d7f80de015d5d50c1cd8e.json,0,0,0,0,3,1
+0xc0c2809aa2a6c38ff1eeac13cff6c0e5cf637e27.json,0,0,0,0,0,0
