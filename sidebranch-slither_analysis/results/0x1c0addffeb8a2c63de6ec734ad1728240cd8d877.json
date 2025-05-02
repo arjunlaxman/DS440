@@ -1,0 +1,354 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "publishTopHash",
+            "source_mapping": {
+              "start": 169,
+              "length": 134,
+              "filename_relative": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+              "filename_absolute": "c:/Users/samli/Documents/GitHub/smartbugs-wild-master/contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+              "filename_short": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+              "is_dependency": false,
+              "lines": [
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ProofOfExistence",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 361,
+                  "filename_relative": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                  "filename_absolute": "c:/Users/samli/Documents/GitHub/smartbugs-wild-master/contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                  "filename_short": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "publishTopHash(uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "topHash = _topHash",
+            "source_mapping": {
+              "start": 266,
+              "length": 18,
+              "filename_relative": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+              "filename_absolute": "c:/Users/samli/Documents/GitHub/smartbugs-wild-master/contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+              "filename_short": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+              "is_dependency": false,
+              "lines": [
+                14
+              ],
+              "starting_column": 13,
+              "ending_column": 31
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "publishTopHash",
+                "source_mapping": {
+                  "start": 169,
+                  "length": 134,
+                  "filename_relative": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                  "filename_absolute": "c:/Users/samli/Documents/GitHub/smartbugs-wild-master/contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                  "filename_short": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ProofOfExistence",
+                    "source_mapping": {
+                      "start": 28,
+                      "length": 361,
+                      "filename_relative": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                      "filename_absolute": "c:/Users/samli/Documents/GitHub/smartbugs-wild-master/contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                      "filename_short": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "publishTopHash(uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "ProofOfExistence.publishTopHash(uint256) (contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol#12-16) should emit an event for: \n\t- topHash = _topHash (contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol#14) \n",
+        "markdown": "[ProofOfExistence.publishTopHash(uint256)](contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol#L12-L16) should emit an event for: \n\t- [topHash = _topHash](contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol#L14) \n",
+        "first_markdown_element": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol#L12-L16",
+        "id": "44522dd991405cbce1392f1694b88848757de5167536cf3c37cb90c537e8e63d",
+        "check": "events-maths",
+        "impact": "Low",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": ">=0.4.0",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_relative": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+              "filename_absolute": "c:/Users/samli/Documents/GitHub/smartbugs-wild-master/contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+              "filename_short": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                ">=",
+                "0.4",
+                ".0"
+              ]
+            }
+          }
+        ],
+        "description": "Version constraint >=0.4.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n\t- DirtyBytesArrayToStorage\n\t- KeccakCaching\n\t- EmptyByteArrayCopy\n\t- DynamicArrayCleanup\n\t- TupleAssignmentMultiStackSlotComponents\n\t- MemoryArrayCreationOverflow\n\t- privateCanBeOverridden\n\t- IncorrectEventSignatureInLibraries_0.4.x\n\t- ExpExponentCleanup\n\t- NestedArrayFunctionCallDecoder\n\t- ZeroFunctionSelector\n\t- DelegateCallReturnValue\n\t- ECRecoverMalformedInput\n\t- SkipEmptyStringLiteral\n\t- ConstantOptimizerSubtraction\n\t- IdentityPrecompileReturnIgnored\n\t- HighOrderByteCleanStorage\n\t- OptimizerStaleKnowledgeAboutSHA3\n\t- LibrariesNotCallableFromPayableFunctions.\nIt is used by:\n\t- >=0.4.0 (contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol#1)\n",
+        "markdown": "Version constraint >=0.4.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n\t- DirtyBytesArrayToStorage\n\t- KeccakCaching\n\t- EmptyByteArrayCopy\n\t- DynamicArrayCleanup\n\t- TupleAssignmentMultiStackSlotComponents\n\t- MemoryArrayCreationOverflow\n\t- privateCanBeOverridden\n\t- IncorrectEventSignatureInLibraries_0.4.x\n\t- ExpExponentCleanup\n\t- NestedArrayFunctionCallDecoder\n\t- ZeroFunctionSelector\n\t- DelegateCallReturnValue\n\t- ECRecoverMalformedInput\n\t- SkipEmptyStringLiteral\n\t- ConstantOptimizerSubtraction\n\t- IdentityPrecompileReturnIgnored\n\t- HighOrderByteCleanStorage\n\t- OptimizerStaleKnowledgeAboutSHA3\n\t- LibrariesNotCallableFromPayableFunctions.\nIt is used by:\n\t- [>=0.4.0](contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol#L1)\n",
+        "first_markdown_element": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol#L1",
+        "id": "e070936543660c40c72a7035edb779c77c595107972b28c0c457f282fbfae2d7",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_topHash",
+            "source_mapping": {
+              "start": 193,
+              "length": 13,
+              "filename_relative": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+              "filename_absolute": "c:/Users/samli/Documents/GitHub/smartbugs-wild-master/contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+              "filename_short": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+              "is_dependency": false,
+              "lines": [
+                12
+              ],
+              "starting_column": 29,
+              "ending_column": 42
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "publishTopHash",
+                "source_mapping": {
+                  "start": 169,
+                  "length": 134,
+                  "filename_relative": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                  "filename_absolute": "c:/Users/samli/Documents/GitHub/smartbugs-wild-master/contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                  "filename_short": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ProofOfExistence",
+                    "source_mapping": {
+                      "start": 28,
+                      "length": 361,
+                      "filename_relative": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                      "filename_absolute": "c:/Users/samli/Documents/GitHub/smartbugs-wild-master/contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                      "filename_short": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "publishTopHash(uint256)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter ProofOfExistence.publishTopHash(uint256)._topHash (contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol#12) is not in mixedCase\n",
+        "markdown": "Parameter [ProofOfExistence.publishTopHash(uint256)._topHash](contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol#L12) is not in mixedCase\n",
+        "first_markdown_element": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol#L12",
+        "id": "d0ddc61c955973f2ae9a37d05d9ce7e049f219f269e6076c042f3b1dd9ba0d6f",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "owner",
+            "source_mapping": {
+              "start": 82,
+              "length": 13,
+              "filename_relative": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+              "filename_absolute": "c:/Users/samli/Documents/GitHub/smartbugs-wild-master/contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+              "filename_short": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+              "is_dependency": false,
+              "lines": [
+                6
+              ],
+              "starting_column": 5,
+              "ending_column": 18
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ProofOfExistence",
+                "source_mapping": {
+                  "start": 28,
+                  "length": 361,
+                  "filename_relative": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                  "filename_absolute": "c:/Users/samli/Documents/GitHub/smartbugs-wild-master/contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                  "filename_short": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              }
+            }
+          }
+        ],
+        "description": "ProofOfExistence.owner (contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol#6) should be immutable \n",
+        "markdown": "[ProofOfExistence.owner](contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol#L6) should be immutable \n",
+        "first_markdown_element": "contracts/0x1c0addffeb8a2c63de6ec734ad1728240cd8d877.sol#L6",
+        "id": "1dc53d8587992fa8c26475ed9542e04fce1e0b075ab4eb66f94bf5247a59ebad",
+        "check": "immutable-states",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}
